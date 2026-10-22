@@ -51,10 +51,10 @@ print(average)
 # =========================================================================
 # 2. CASE SENSITIVITY
 # =========================================================================
-name = "Krish"
-Name = "Naik"
-print(name)                  # Output: Krish
-print(Name)                  # Output: Naik
+name = "Kartik"
+Name = "Keshvi"
+print(name)                  # Output: Kartik
+print(Name)                  # Output: Keshvi
 # KEY: `name` and `Name` are two different variables.
 # GOTCHA: a typo in capitalisation (`Print`, `True` vs `true`) is a NameError, not a warning.
 
@@ -142,7 +142,7 @@ print(z)                     # Output: 15
 # =========================================================================
 variable = 10
 print(type(variable))        # Output: <class 'int'>
-variable = "Krish"
+variable = "Kritika"
 print(type(variable))        # Output: <class 'str'>
 # KEY: you never declare a type. The value carries it, and the variable can be re-pointed later.
 # GOTCHA: flexible also means a variable can silently change type. Name things clearly.
@@ -151,7 +151,7 @@ print(type(variable))        # Output: <class 'str'>
 # Summary:
 #   1. Syntax = grammar Python requires (missing colon fails). 
 #      Semantics = meaning (adding instead of subtracting runs fine but is wrong).
-#   2. Indentation:The space added at the beginning of a line of code to show its structure and which block of code it belongs to.
-#   3. Python is case sensitive. `Print` isn't a built-in, so it raises NameError.
+#   2. Indentation: The space added at the beginning of a line of code to show its structure and which block of code it belongs to.
+#   3. Python is case-sensitive. `Print` isn't a built-in, so it raises NameError.
 #   4. A backslash `\` or brackets ( ) [ ] { }.
 #   5. SyntaxError (found while compiling, before anything runs).
